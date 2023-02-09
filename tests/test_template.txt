@@ -1,0 +1,32 @@
+"""
+Test with: python -m unittest tests.<test_Case> -v
+e.g. python -m unittest tests.test_longest_common_prefix -v
+
+<INTRO>
+
+Example 1:
+
+Input: <INPUT_1>
+Output: <OUTPUT_1>
+
+Example 2:
+
+Input: strs = <INPUT_2>
+Output: <OUTPUT_2>
+Explanation: <EXPLANATION_2>
+
+"""
+import unittest
+from algos.<module_name> import Solution
+
+class Test_<ALGO>(unittest.TestCase):
+
+    def test_example1(self):
+        test   = Solution()
+        input  = abc
+        output = xyz
+        result = test.<ALGO>(input)
+        self.assertEqual(result, output)
+
+if __name__ == '__main__':
+    unittest.main()
