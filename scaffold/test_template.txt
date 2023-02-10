@@ -20,6 +20,8 @@ import unittest
 from algos.<PACKAGE_NAME> import Solution
 
 class Test_<ALGO>(unittest.TestCase):
+    """ Unit tests for leetcode fun and games
+    """
 
     def test_example1(self):
         test   = Solution()

@@ -68,7 +68,7 @@ with open(algo_init, 'w') as file:
 print("******************************************")
 print("All done, new tests and package generated")
 print("Run tests with:")
-print("python -m unittest " + test_output.replace('.py',''))
+print("python -m unittest " + test_output.replace('.py','').replace('.','').replace('/','.'))
 print("Algo source is here:")
 print(algo_output)
 print("******************************************")
