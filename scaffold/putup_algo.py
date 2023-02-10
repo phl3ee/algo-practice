@@ -35,7 +35,8 @@ algo_init     = "./algos/__init__.py"
 #clone, update, insert test case
 with open(test_template, 'r') as file:
     test_data = file.read()
-    test_data = test_data.replace('<DESCRIPTION>', description)
+    #Crudely chopping up description field to reduce line length
+    test_data = test_data.replace('<DESCRIPTION>', description.replace(',',',\n').replace('.','.\n'))
     test_data = test_data.replace('<PACKAGE_NAME>', package_name)
     test_data = test_data.replace('<ALGO>', algo_name)
 
@@ -65,10 +66,13 @@ with open(algo_init, 'r') as file:
 with open(algo_init, 'w') as file:
     file.write(data)
 
+
 print("******************************************")
 print("All done, new tests and package generated")
+print("******************************************")
 print("Run tests with:")
-print("python -m unittest " + test_output.replace('.py','').replace('.','').replace('/','.'))
-print("Algo source is here:")
+print("python -m unittest tests.test_" + package_name + " -v")
+print("\nAlgo source is here:")
 print(algo_output)
+print("\nglhfdd...")
 print("******************************************")

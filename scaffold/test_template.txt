@@ -24,9 +24,11 @@ class Test_<ALGO>(unittest.TestCase):
     """
 
     def test_example1(self):
+        """Example case from leetcode
+        """
         test   = Solution()
-        input  = abc
-        output = xyz
+        input  = 'abc'
+        output = 'xyz'
         result = test.<ALGO>(input)
         self.assertEqual(result, output)
 

@@ -5,3 +5,4 @@ from .merge_sorted_lists import Solution
 from .twoSum import twoSum, twoSumFast
 from .valid_parentheses import Solution
 from .remove_duplicates_sorted import Solution
+from .plus_one import Solution
