@@ -2,7 +2,7 @@
 Test with: python -m unittest tests.<test_Case> -v
 e.g. python -m unittest tests.test_longest_common_prefix -v
 
-<INTRO>
+<DESCRIPTION>
 
 Example 1:
 
@@ -17,7 +17,7 @@ Explanation: <EXPLANATION_2>
 
 """
 import unittest
-from algos.<module_name> import Solution
+from algos.<PACKAGE_NAME> import Solution
 
 class Test_<ALGO>(unittest.TestCase):
 

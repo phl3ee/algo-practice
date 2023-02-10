@@ -1,4 +1,6 @@
 class ListNode:
+    """Various helper functions for leetcode ListNode challenges
+    """
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
@@ -21,7 +23,7 @@ class ListNode:
         values.append(head.val)
         return values
 
-    def buildNumberFromListNode(head):
+    def buildNumberFromListNode(self, head):
         values = ''
         while head.next != None:
             values = str(head.val) + values
