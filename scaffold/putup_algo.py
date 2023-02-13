@@ -21,8 +21,8 @@ parser.add_argument("-f", "--function_definition", type=str,
 parser.add_argument("-d", "--description", type=str, help='The description/intro from leet code')
 
 args          = parser.parse_args()
-package_name  = args.package_name
-function_definition  = args.function_definition
+package_name  = args.package_name.strip()
+function_definition  = args.function_definition.strip()
 description   = args.description
 algo_name     = function_definition.split(' ')[1].replace('(self,','')
 

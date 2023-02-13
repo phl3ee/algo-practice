@@ -8,3 +8,5 @@ from .remove_duplicates_sorted import Solution
 from .plus_one import Solution
 from .sqrt_x import Solution
 from .climb_stairs import Solution
+from .remove_element import Solution
+from .search_insert_pos import Solution
