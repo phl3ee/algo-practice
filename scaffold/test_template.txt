@@ -1,5 +1,5 @@
 """
-Test with: python -m unittest tests.<test_Case> -v
+Test with: python -m unittest tests.test_<PACKAGE_NAME> -v
 e.g. python -m unittest tests.test_longest_common_prefix -v
 
 <DESCRIPTION>
