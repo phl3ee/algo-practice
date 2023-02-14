@@ -10,3 +10,6 @@ from .sqrt_x import Solution
 from .climb_stairs import Solution
 from .remove_element import Solution
 from .search_insert_pos import Solution
+from .bi_tree_maxdepth import Solution
+
+from .bi_tree_symmetric import Solution

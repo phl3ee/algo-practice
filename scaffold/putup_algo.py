@@ -51,6 +51,8 @@ with open(algo_template, 'r') as file:
 #add local imports if the function has lists, ListNodes etc
 if 'ListNode' in function_definition:
     algo_data = 'from helpers.listNodeHelpers import ListNode\n' + algo_data
+if 'TreeNode' in function_definition:
+    algo_data = 'from helpers.tree_node import TreeNode\n' + algo_data
 if 'List[' in function_definition:
     algo_data = 'from typing import List\n' + algo_data
 if 'Optional' in function_definition:
