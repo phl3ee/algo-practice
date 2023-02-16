@@ -17,3 +17,4 @@ from .array_integer_add import Solution
 from .array_buy_sell_stock import Solution
 from .hash_table_phone_letters import Solution
 from .binary_hamming_weight import Solution
+from .maths_reverse_integer import Solution
