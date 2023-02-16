@@ -11,9 +11,9 @@ from .climb_stairs import Solution
 from .remove_element import Solution
 from .search_insert_pos import Solution
 from .bi_tree_maxdepth import Solution
-
 from .bi_tree_symmetric import Solution
 from .binary_string_add import Solution
 from .array_integer_add import Solution
 from .array_buy_sell_stock import Solution
 from .hash_table_phone_letters import Solution
+from .binary_hamming_weight import Solution

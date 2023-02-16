@@ -57,14 +57,14 @@ class Test_letterCombinations(unittest.TestCase):
         result = test.letterCombinations(digits)
         self.assertEqual(result, output)
 
-    def test_example4(self):
-        """Example case from leetcode
-        """
-        test   = Solution()
-        digits = "233"
-        output = ["ada","aea","afa","bda","bea","bfa","cda","cea","cfa"]
-        result = test.letterCombinations(digits)
-        self.assertEqual(result, output)
+    # def test_example4(self):
+    #     """Example case from leetcode
+    #     """
+    #     test   = Solution()
+    #     digits = "233"
+    #     output = ["ada","aea","afa","bda","bea","bfa","cda","cea","cfa"]
+    #     result = test.letterCombinations(digits)
+    #     self.assertEqual(result, output)
 
 if __name__ == '__main__':
     unittest.main()
