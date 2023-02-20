@@ -15,7 +15,7 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
 """
 import unittest
-from algos.median_two_sorted_arrays import Solution
+from algos.maths_median_two_sorted_arrays import Solution
 
 class TestMedianSortedArrays(unittest.TestCase):
 

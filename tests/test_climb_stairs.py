@@ -24,7 +24,7 @@ Explanation: There are three ways to climb to the top.
 
 """
 import unittest
-from algos.climb_stairs import Solution
+from algos.maths_climb_stairs import Solution
 
 class Test_climbStairs(unittest.TestCase):
     """ Unit tests for leetcode fun and games

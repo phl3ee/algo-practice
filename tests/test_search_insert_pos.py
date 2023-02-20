@@ -22,7 +22,7 @@ Output: 4
 
 """
 import unittest
-from algos.search_insert_pos import Solution
+from algos.array_search_insert_pos import Solution
 
 class Test_def(unittest.TestCase):
     """ Unit tests for leetcode fun and games

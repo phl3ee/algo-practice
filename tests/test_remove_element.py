@@ -51,7 +51,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 """
 import unittest
-from algos.remove_element import Solution
+from algos.array_remove_element import Solution
 
 class Test_removeElement(unittest.TestCase):
     """ Unit tests for leetcode fun and games

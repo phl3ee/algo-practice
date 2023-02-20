@@ -22,7 +22,7 @@ Explanation: <EXPLANATION_2>
 
 """
 import unittest
-from algos.plus_one import Solution
+from algos.maths_plus_one import Solution
 
 class Test_plusOne(unittest.TestCase):
     """ Unit tests for leetcode fun and games

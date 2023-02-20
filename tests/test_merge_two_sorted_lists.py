@@ -21,7 +21,7 @@ Output: [0]
 
 """
 import unittest
-from algos.merge_sorted_lists import Solution
+from algos.list_node_merge_sorted_lists import Solution
 from helpers.listNodeHelpers import ListNode
 
 class Test_sorted_lists(unittest.TestCase):

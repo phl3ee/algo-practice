@@ -19,7 +19,7 @@ Explanation: The answer is "wke", with the length of 3.
 Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
 """
 import unittest
-from algos.longestSubstringNoRepeat import Solution
+from algos.string_longest_substring_no_repeat import Solution
 
 class TestLongestSubString(unittest.TestCase):
 

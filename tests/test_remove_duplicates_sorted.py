@@ -49,7 +49,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 """
 import unittest
-from algos.remove_duplicates_sorted import Solution
+from algos.array_remove_duplicates_sorted import Solution
 
 class Test_removeDuplicates(unittest.TestCase):
     """Test cases for leetcode fun and games"""

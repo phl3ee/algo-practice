@@ -23,7 +23,7 @@ and since we round it down to the nearest integer, 2 is returned.
 
 """
 import unittest
-from algos.sqrt_x import Solution
+from algos.maths_sqrt_x import Solution
 
 class Test_mySqrt(unittest.TestCase):
     """ Unit tests for leetcode fun and games

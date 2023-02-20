@@ -24,7 +24,7 @@ Output: false
 
 """
 import unittest
-from algos.valid_parentheses import Solution
+from algos.string_valid_parentheses import Solution
 
 class Test_Valid_Parentheses(unittest.TestCase):
 

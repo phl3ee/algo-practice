@@ -22,7 +22,7 @@ output = "ab"
 
 """
 import unittest
-from algos.longest_common_prefix import Solution
+from algos.string_longest_common_prefix import Solution
 
 class TestTwoSum(unittest.TestCase):
 

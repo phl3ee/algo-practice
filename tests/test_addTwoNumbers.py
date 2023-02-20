@@ -17,7 +17,7 @@ Output: [8,9,9,9,0,0,0,1]
 
 """
 import unittest
-from algos.addTwoNumbers import Solution
+from algos.list_node_add_two_numbers import Solution
 from helpers.listNodeHelpers import ListNode
 
 class TestAddTwoNumbers(unittest.TestCase):
